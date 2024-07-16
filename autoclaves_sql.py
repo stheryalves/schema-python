@@ -20,7 +20,7 @@ def remover_texto_e_converter_para_int(string):
         return string
 
 # Caminho do arquivo CSV
-csv_path = 'C:/Users/sther/Desktop/DNC/Equipacare/SQL/autoclaves_a_vapor.csv'
+csv_path = './autoclaves_a_vapor.csv'
 df = pd.read_csv(csv_path, delimiter=';')
 
 # Aplicar a função de limpeza aos dados

@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from datetime import datetime
 
-csv_path = 'C:/Users/sther/Desktop/DNC/Equipacare/SQL/lavadoras.csv'
+csv_path = './lavadoras.csv'
 df = pd.read_csv(csv_path, delimiter=';')
 
 def remover_texto_e_converter_para_numero(string):
